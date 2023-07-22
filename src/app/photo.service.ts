@@ -18,7 +18,7 @@ export class PhotoService {
   {
     return this.http.get<CallResponse>(this.imageurl,{
       headers:{
-        Authorization: 'Client-ID scKzdK8ELWPsT5gLIPI8QDdjGF4cqNOb_w_gAoJkJ5Q'
+        Authorization: 'Client-ID zr6CcMiPs6zAp0lERfw6U7MHCkqG3kwcmZD_wwC11AE'
       }
   }
   );

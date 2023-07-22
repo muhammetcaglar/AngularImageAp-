@@ -1,3 +1,14 @@
 img {
   width: 300px;
 }
+.maindiv{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.imageButton{
+  padding: 15px 15px;
+  color: black;
+  background-color: coral;
+  border-radius: 10px;
+}

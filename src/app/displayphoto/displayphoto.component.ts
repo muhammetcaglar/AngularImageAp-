@@ -19,7 +19,7 @@ export class DisplayphotoComponent implements OnInit{
   getImages(){
     this.photoService.getPhotos().subscribe(response => {
      this.photoUrl= response.urls.regular;
-    //  console.log(this.photoUrl);
+      console.log(this.photoUrl);
     })
   }
   onClick(){
